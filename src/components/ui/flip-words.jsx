@@ -93,8 +93,8 @@ export function WordFlip() {
   const words = ["Software Engineer", "Full Stack Developer", "Data Analyst", "Mobile Developer"];
 
   return (
-    <div className="h-[40rem] flex flex-col justify-center items-center px-4">
-      <h1 className="text-7xl font-normal text-neutral-600 dark:text-neutral-400 mb-5">
+    <div className="h-[40rem] flex flex-col justify-center px-4">
+      <h1 className="text-7xl self-start font-normal text-neutral-600 dark:text-neutral-400 mb-5">
         Hi, I&apos;m Ryan,
       </h1>
       <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">

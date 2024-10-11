@@ -173,8 +173,7 @@ export const Timeline = ({
         </h2>
         <p
           className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;m a Software Engineer at the University of Washington. Here&apos;s
-          a timeline of my journey.
+          Here&apos;s a timeline of my journey.
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
