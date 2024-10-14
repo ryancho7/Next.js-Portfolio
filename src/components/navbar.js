@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 export function Nav() {
   return (
     <div className="relative w-full flex items-center justify-center">
+    {/* <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 bg-white bg-opacity-30 backdrop-blur-md p-4 rounded-lg", className)}> */}
       <Navbar className="top-2" />
     </div>
   );
@@ -14,7 +15,8 @@ export function Nav() {
 function Navbar({ className }) {
   const [active, setActive] = useState(null);
   return (
-    <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+    <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 bg-black", className)}>
+    {/* <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 p-4 rounded-lg", "bg-white bg-opacity-10 backdrop-blur-lg shadow-lg")}> */}
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="flex flex-col space-y-4 text-sm">

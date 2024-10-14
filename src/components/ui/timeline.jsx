@@ -32,13 +32,13 @@ export const Timeline = ({
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <Image
+            {/* <Image
               src="/images/veganism2.png"
               alt="viable veganism image"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+            /> */}
           </div>
         </div>
       ),
@@ -64,13 +64,13 @@ export const Timeline = ({
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <Image
+            {/* <Image
               src="/images/hazing-info2.png"
               alt="hazing info website"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+            /> */}
           </div>
         </div>
       ),
@@ -100,52 +100,31 @@ export const Timeline = ({
         </div>
       ),
     },
-    // {
-    //   title: "Oct, 2024",
-    //   content: (
-    //     <div>
-    //       <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200">
-    //         Front-End Developer
-    //       </h3>
-    //       <h3 className="text-md font-semibold text-neutral-800 dark:text-neutral-200">
-    //         Washington Hyperloop
-    //       </h3>
-    //       <p className="italic text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 max-w-xs overflow-hidden">
-    //         Updated existing Hyperloop website with new features and increased funcionality
-    //       </p>
-    //       <div className="grid grid-cols-2 gap-4">
-    //         <Image
-    //           src=""
-    //           alt="startup template"
-    //           width={500}
-    //           height={500}
-    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-    //         />
-    //         <Image
-    //           src=""
-    //           alt="startup template"
-    //           width={500}
-    //           height={500}
-    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-    //         />
-    //         <Image
-    //           src=""
-    //           alt="startup template"
-    //           width={500}
-    //           height={500}
-    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-    //         />
-    //         <Image
-    //           src=""
-    //           alt="startup template"
-    //           width={500}
-    //           height={500}
-    //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-    //         />
-    //       </div>
-    //     </div>
-    //   ),
-    // }
+    {
+      title: "Oct, 2024",
+      content: (
+        <div>
+          <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200">
+            Frontend Developer
+          </h3>
+          <h3 className="text-md font-semibold text-neutral-800 dark:text-neutral-200">
+            Washington Hyperloop
+          </h3>
+          <p className="italic text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 max-w-xs overflow-hidden">
+            Managed Hyperloop website and spearheaded replatforming project as lead developer
+          </p>
+          <div className="grid grid-cols-1 gap-4">
+            <Image
+              src="/images/hyperloop.png"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    }
   ];
 
   useEffect(() => {
@@ -167,13 +146,13 @@ export const Timeline = ({
     (<div
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 max-w-full overflow-x-auto"
       ref={containerRef}>
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          From the beginning, to now, and on to the future
+          From the Beginning, to Now, and on to the Future
         </h2>
         <p
           className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          Here&apos;s a timeline of my journey.
+          Here&apos;s a brief timeline of my journey
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
