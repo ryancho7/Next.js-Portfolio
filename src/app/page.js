@@ -8,20 +8,25 @@ import { ThreeDCardDemo } from "@/components/ui/3d-card";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[0px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:pr-20 prl-20 pb-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="scroll-smooth grid grid-rows-[0px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:pr-20 prl-20 pb-20 font-[family-name:var(--font-geist-sans)]">
       <div className="w-full">
         <Navbar />
       </div>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start lg:items-center">
         <FloatingNav />
-        <div className="flex flex-row gap-40">
+        <div id="home" className="flex flex-row gap-40">
           <WordFlip />
           <ThreeDCardDemo />
         </div>
-        <div className="timeline">
+        <div id="timeline">
           <Timeline />
         </div>
-        <SpinningCarousel />
+        <div id="projects">
+          <SpinningCarousel />
+        </div>
+        <div id="contact">
+          Contact here
+        </div>
       </main>
     </div>
   );

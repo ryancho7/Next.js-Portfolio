@@ -5,7 +5,7 @@ export function Navbar() {
     <nav className="p-4 flex flex-row justify-between pl-28 pr-28 pt-8">
       <div>
         <Link 
-          href="/" 
+          href="#home" 
           className="text-black font-light text-lg px-4 py-2 rounded-full hover:border-0.5 hover:border-black transition duration-300"
         >
           Ryan Cho
@@ -15,23 +15,23 @@ export function Navbar() {
         <ul className="flex space-x-10">
           <li>
             <Link 
-              href="/" 
+              href="#timeline" 
               className="text-black font-light text-lg px-4 py-2 rounded-full hover:border-0.5 hover:border-black transition duration-300"
             >
-              Home
+              Timeline
             </Link>
           </li>
           <li>
             <Link 
-              href="/about" 
+              href="#projects" 
               className="text-black font-light text-lg px-4 py-2 rounded-full hover:border-0.5 hover:border-black transition duration-300"
             >
-              About
+              Projects
             </Link>
           </li>
           <li>
             <Link 
-              href="/contact" 
+              href="#contact" 
               className="text-black font-light text-lg px-4 py-2 rounded-full hover:border-0.5 hover:border-black transition duration-300"
             >
               Contact
