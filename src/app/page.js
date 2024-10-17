@@ -5,10 +5,11 @@ import { Navbar } from "@/components/regular-navbar";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { SpinningCarousel } from "@/components/carousel";
 import { ThreeDCardDemo } from "@/components/ui/3d-card";
+import { LinkPreviewSection } from "@/components/ui/link-preview";
 
 export default function Home() {
   return (
-    <div className="scroll-smooth grid grid-rows-[0px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:pr-20 prl-20 pb-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="scroll-smooth grid grid-rows-[0px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-16 sm:pr-20 prl-20 pb-20 font-[family-name:var(--font-geist-sans)]">
       <div className="w-full">
         <Navbar />
       </div>
@@ -17,6 +18,9 @@ export default function Home() {
         <div id="home" className="flex flex-row gap-40">
           <WordFlip />
           <ThreeDCardDemo />
+        </div>
+        <div id="about" className="h-screen">
+          <LinkPreviewSection />
         </div>
         <div id="timeline">
           <Timeline />
