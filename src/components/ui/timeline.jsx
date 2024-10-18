@@ -64,13 +64,6 @@ export const Timeline = ({
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            {/* <Image
-              src="/images/hazing-info2.png"
-              alt="hazing info website"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            /> */}
           </div>
         </div>
       ),
@@ -116,6 +109,31 @@ export const Timeline = ({
           <div className="grid grid-cols-1 gap-4">
             <Image
               src="/images/hyperloop.png"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Oct, 2024",
+      content: (
+        <div>
+          <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200">
+            Fullstack Web Developer
+          </h3>
+          <h3 className="text-md font-semibold text-neutral-800 dark:text-neutral-200">
+            TEDxUofW
+          </h3>
+          <p className="italic text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 max-w-xs overflow-hidden">
+          Developed a full-stack website for the 2024-2025 TEDxUofW event using Next.js and Node.js, collaborating closely with the UX/UI design team
+          </p>
+          <div className="grid grid-cols-1 gap-4">
+            <Image
+              src="/images/tedx.png"
               alt="startup template"
               width={500}
               height={500}

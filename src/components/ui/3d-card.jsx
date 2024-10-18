@@ -160,14 +160,15 @@ export function ThreeDCardDemo() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://github.com/ryancho7/seoul-bites"
-            target="__blank"
+            href="#projects"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white">
             Learn More →
           </CardItem>
           <CardItem
             translateZ={20}
-            as="button"
+            as={Link}
+            href="https://github.com/ryancho7/seoul-bites"
+            target="__blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold">
             GitHub
           </CardItem>
