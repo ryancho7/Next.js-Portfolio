@@ -246,8 +246,7 @@ const InfiniteMovingCards = ({
       >
         {items.map((imageUrl, index) => (
           <li
-            // className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700"
-            className="w-[200] h-[200] relative rounded-2xl border border-b-0 flex-shrink-0"
+            className="w-[150] h-[150] relative rounded-2xl border border-b-0 flex-shrink-0"
             style={{
               backgroundColor: "#ffffff",
             }}
@@ -256,8 +255,7 @@ const InfiniteMovingCards = ({
             <img 
               src={imageUrl} 
               alt={`Image ${index + 1}`} 
-              // className="w-full h-auto rounded-2xl"
-              className="w-[200px] h-[200px] object-cover rounded-2xl"
+              className="w-[150px] h-[150px] object-cover rounded-2xl"
             />
           </li>
         ))}
