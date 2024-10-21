@@ -32,7 +32,7 @@ export function About() {
           </LinkPreview>{" "}
         </p>
         <p className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto">
-          I'm currently working on projects using{" "}
+          I&apos;m currently working on projects using{" "}
           <span className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-orange-500 to-yellow-500">Python/SQL</span>
           {" "}and other backend services. Check them out on my{" "}
           <LinkPreview
