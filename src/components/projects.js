@@ -44,7 +44,7 @@ const items = [
     description: "An updated portfolio built using Next.js and Tailwind CSS",
     header: <Skeleton image="/images/nextjs-portfolio.png"/>,
     icon: <ExternalLink className="h-4 w-4 text-neutral-500" />,
-    href: "",
+    href: "https://portfolioryancho.netlify.app/",
     icon2: <IconBrandGithub className="h-4 w-4 text-neutral-500" />,
     href2: "https://github.com/ryancho7/Next.js-Portfolio",
   },

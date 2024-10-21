@@ -50,7 +50,7 @@ export function FloatingContacts() {
       icon: (
         <FileText className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/resume.pdf",
+      href: "/main-resume.pdf",
       target: "_blank",
     },
   ];
