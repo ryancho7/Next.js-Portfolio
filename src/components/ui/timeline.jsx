@@ -2,6 +2,15 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import Image from 'next/image';
+import { Playfair_Display } from 'next/font/google';
+
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair-display',
+});
+
 
 export const Timeline = ({
   data = []
@@ -158,11 +167,11 @@ export const Timeline = ({
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 max-w-full overflow-x-auto"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          A Look of At My Recent Experiences
+        <h2 className={`text-lg md:text-6xl mb-4 text-black dark:text-white max-w-4xl ${playfairDisplay.className}`}>
+          A Look of At My Recent <br /> Experiences
         </h2>
         <p
-          className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+          className={`text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm ${playfairDisplay.className}`}>
           Here&apos;s a brief timeline of my journey
         </p>
       </div>

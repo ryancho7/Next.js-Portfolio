@@ -1,12 +1,10 @@
-import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
-import { WordFlip } from "@/components/ui/flip-words";
+import { WordFlip } from "@/components/word-flip";
 import { Navbar } from "@/components/regular-navbar";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { SpinningCarousel } from "@/components/carousel";
 import { ThreeDCardDemo } from "@/components/ui/3d-card";
-import { LinkPreviewSection } from "@/components/ui/link-preview";
-import { TechStackCards } from "@/components/ui/infinite-moving-cards";
+import { About } from "@/components/about";
+import { TechStackCards } from "@/components/tech-stack-cards";
 import { Contact } from "@/components/contact";
 import { ProjectSection } from "@/components/project-section";
 
@@ -23,16 +21,14 @@ export default function Home() {
           <ThreeDCardDemo />
         </div>
         <div id="about" className="h-screen mt-20">
-          <LinkPreviewSection />
+          <About />
           <TechStackCards />
         </div>
         <div id="timeline" className="mt-20">
           <Timeline />
         </div>
         <div id="projects">
-          {/* <SpinningCarousel /> */}
           <ProjectSection />
-          {/* <ProjectGrid /> */}
         </div>
         <div id="contact">
           <Contact />

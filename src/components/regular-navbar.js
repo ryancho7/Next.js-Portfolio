@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function Navbar() {
   return (
-    <nav className="p-4 flex flex-row justify-between pl-28 pr-24 pt-8">
+    <nav className="p-4 flex flex-row justify-between pl-20 pr-20 pt-8">
       <div>
         <Link 
           href="#home" 

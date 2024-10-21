@@ -99,8 +99,8 @@ const items = [
     description: "Python and SQL based applications coming soon",
     header: <Skeleton />,
     icon: <ExternalLink className="h-4 w-4 text-neutral-500" />,
-    href: "https://github.com/ryancho7/seoul-bites",
+    href: "https://github.com/ryancho7",
     icon2: <IconBrandGithub className="h-4 w-4 text-neutral-500" />,
-    href2: "https://github.com/ryancho7/seoul-bites",
+    href2: "https://github.com/ryancho7",
   },
 ];
